@@ -13,13 +13,6 @@ public static class GlobalMembers
 		}
 		return sum;
 	}
-
-	//public static double f(double X)
-	//{
-	//	double sum = 0;
-	//	sum = Math.Sin(X);
-	//	return sum;
-	//}
 		public static void printout(double y_max, double[] maxX, int size)
 	{
         Console.WriteLine($"y_max = {y_max}");
@@ -49,10 +42,6 @@ public static class GlobalMembers
 		Console.WriteLine( timer.Elapsed.ToString());
 		timer.Stop();
 		printout(y_max,maxX,1);
-		
-	    
-		
-
 	}
 	
 	public static void Dim2(double step)
@@ -191,6 +180,7 @@ public static class GlobalMembers
 	static void Main(string[] args)
 	{
 
+		// you can use your time in states
 		Dim1(0.1);
 		Dim2(0.1);
 		Dim3(0.1);
